@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    
+        background-image: url('images/BG.webp'); /* Path to image */
+        background-size: cover;  /* Ensures the image covers the entire screen */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        color: white; /* Ensures text is readable on a dark background */
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('images/hero.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+/* Home Page Layout */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content div {
+    width: 48%;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+}
