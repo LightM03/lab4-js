@@ -1,22 +1,6 @@
-STUDENT DETAILS:
 
 Rabecca Mwale - 2021382893
-
+Bupe Mwaba
 DESCRIPTION:
-In this lab, we explored how to use CSS3 to add styling across multiple HTML pages and implement responsive design while maintaining clean, and reusable code structure across pages.
-The web contains 3 pages; The home page where flexboc was emplored to display two sections, the Services page which utilized CSS to display 4 service cards with headings and texts, and the Contact page which included a form with HTML5 attributed.
-
-CSS FEATURES USED
-
- Flexbox: Used for navigation bar and layout of the home page.
-
- CSS Grid: Applied to the services page for a structured card layout.
- 
- Media Queries: Ensures responsiveness across three breakpoints:
- max-width: 1024px (tablet view)
- max-width: 768px (small tablets/landscape phones)
- max-width: 480px (mobile devices)
- 
- Animations & Transitions: Used @keyframes for subtle effects, Hover effects on service cards.
- 
- Responsive Images: Ensured images adjust dynamically with max-width: 100%.
+This lab enhances the multipage website by adding dynamic features using morden Javascript. It includes a theme toggle on the home page, form validation with a personalized response on the contact page, a user list fetched from an API, and an interactive FAQ section. All these features demonstrate the use of DOM manipulation, event handling, conditional logic, as well as asynchronous Javascript.
+The project is organized into CSS, HTML and Javascript files designed to be responsive accross different devices.
