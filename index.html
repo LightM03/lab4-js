@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Lab 3</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Lab 4</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button id="themeToggle">Switch Theme</button>
-    </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="hero">
-        <h1>Welcome to Our Website</h1>
-        <p>Building responsive pages with CSS3.</p>
-    </section>
+  <!-- Theme toggle -->
+  <section style="text-align: center; margin: 1rem 0;">
+    <button id="themeToggle">Switch Theme</button>
+  </section>
 
-    <section class="content">
-        <div class="intro">
-            <h2>Introduction</h2>
-            <p>This is an example of using Flexbox for layout.</p>
-        </div>
-        <div class="sidebar">
-            <h2>Sidebar</h2>
-            <p>Additional information goes here.</p>
-        </div>
-    </section>
+  <section class="hero">
+    <h1>Welcome to Our Website</h1>
+    <p>Building responsive pages with CSS3.</p>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Lab 3 - Multipage Website</p>
-    </footer>
-    
+
+  <!-- Fetch Team Members -->
+  <section style="margin: 2rem;">
     <h2>Team Members</h2>
-<ul id="userList"></ul>
-<button id="loadUsersBtn">Load Users</button>
+    <button id="loadUsersBtn">Load Users</button>
+    <ul id="userList"></ul>
+  </section>
 
-<div class="faq-item">
-    <h3 class="question">What is this website about?</h3>
-    <p class="answer">This is a demo project for learning web development.</p>
-  </div>
+  <!-- FAQ Section -->
+  <section style="margin: 2rem;">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <h3 class="question">What is this website about?</h3>
+      <p class="answer">This is a demo project for learning web development.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="question">How can I contact you?</h3>
+      <p class="answer">Visit the Contact page and fill out the form.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lab 4 - Multipage Website</p>
+  </footer>
+
   <script src="script.js" defer></script>
+  <button id="backToTop" title="Back to Top">↑</button>
+
 </body>
 </html>
